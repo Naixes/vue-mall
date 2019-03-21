@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+
+  <!-- 使用html-webpack-plugin可以将index.html也放到虚拟内存中并且自动引用bundle.js -->
+  <!-- 由于webpack-dev-server会将bundle.js放在虚拟内存中所以应使用根路径 -->
+  <!-- <script src="./bundle.js"></script> -->
+</head>
+<body>
+  <div id="app"></div>
+<script type="text/javascript" src="bundle.js"></script></body>
+</html>
